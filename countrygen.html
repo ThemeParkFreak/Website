@@ -2,12 +2,13 @@
 <html>
 
 <head>
-<title>ThemeParkFreak - Home</title>
+<title>ThemeParkFreak - Country Generator</title>
 <html lang="en-US">
 <link rel="icon" 
       type="image/png" 
       href="icon.png">
 </head>
+
 <style>
 
 header {
@@ -51,15 +52,19 @@ div {
 <body>
 <br>
 <div style="padding: 1%;">
-<br>
-<span>Hi, my name is Alex. I'm a UK based YouTuber. I also code in my spare time. I decided to make this website to host my new idea, the Theme Generator. But I've decided to use it more of a general website.</span>
-<br>
-<br>
-<iframe width="720" height="405"
-src="https://www.youtube.com/embed/5BVS58YHhO8">
-</iframe>
+<center>
+<h2>ThemeParkFreak's Country Generator</h1>
 
+<h1 style="font-size: 200%;" id=generatedCountry> </h1>
+<form>
+  <input type="button" value="Generate Country" onclick="generateCountry()">
+</form>
+
+<script src="CountryRandomiser.js"></script>
+<br>
+<span>To help you decide what country your park should be in!</span>
+</center>
 </div>
-</body>
 
+</body>
 </html>
