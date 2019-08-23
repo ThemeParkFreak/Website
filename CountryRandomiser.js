@@ -12,7 +12,7 @@ var countryList = [
   "Italy",
   "South Africa",
   "Switzerland",
-  "Austrailia",
+  "Australia",
   "New Zealand",
   "Japan",
   "China",
