@@ -25,6 +25,8 @@ var themeList = [
   "Oriental",
   "Asian",
   "Stone Age",
+  "Egyptian",
+  "Arabic",
   "Dinosaurs"
 ];
 
